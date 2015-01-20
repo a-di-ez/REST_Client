@@ -1,0 +1,106 @@
+body {
+  background: url("../images/noise.png") repeat;
+  background-color: #e2e7ec;
+  padding: 0px 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.st_h1 {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  padding: 10px
+}
+.content {
+  position: relative;
+  width: 1200px;
+  margin:0 auto;
+  background-color: #f7f9fb;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+
+.sidebar {
+  border: 1px solid rgb(194, 194, 194);
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
+  width: 15%;
+  float: left;
+  border-radius: 6px;
+  margin: 5px;
+  margin-top: 50px;
+}
+.sidebar h3 {
+  text-align: center;
+}
+
+form {
+  width: 700px;
+  margin: 55px 29%;
+}
+.select {
+  width: 80px;
+  height: 45px;
+  font-size: 15px;
+  text-align: center;
+}
+.str_url {
+  width:450px;
+  height:40px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.button {
+  width:105px;
+  height:45px;
+  font-size: 20px;
+}
+
+.form {
+  padding:50px;
+}
+
+.form-request {
+  width: 1175px;
+  margin: 0 auto;
+}
+
+.request {
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 5px;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
+  margin: 5px;
+  padding: 10px 20px 10px 10px;
+  float: left;
+}
+
+.response {
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 5px;
+  background-color: #f7f9fb;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
+  margin: 5px;
+  padding: 10px 20px 10px 10px;
+  float: left;
+}
+
+
+.save {
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 5px;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.4);
+  margin: 15px;
+  padding: 10px 20px 10px 10px;
+  margin-top: 45px;
+}
+.save h1 {
+  padding:0;
+  margin:0;
+  text-align: center;
+  cursor: pointer;
+}

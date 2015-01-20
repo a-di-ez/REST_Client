@@ -1,0 +1,52 @@
+extends layout
+
+block content
+  <header></header>
+  <div class="content">
+  h1(class="st_h1") REST Client.
+  <div class="sidebar">
+  <h3>Be Selected</h3>
+  <ul>
+  <li>Test-1</li>
+  <li>Test-2</li>
+  <li>Test-3</li>
+  <li>Test-4</li>
+  <li>Test-5</li>
+  <li>Test-6</li>
+  <li>Test-7</li>
+  </ul>
+  </div>
+  form(method='post', action='/', name="form1")
+    <select name="method" class="select">
+    <option value="GET">GET</option>
+    <option value="POST">POST</option>
+    <option value="DELETE">DELETE</option>
+    <option value="PUT">PUT</option>
+    </select>
+    input(name='url', placeholder="Введите URL", type='text', class="str_url")
+    input(value='GO!', type='submit', class="button")
+  <div style="clear: both;"></div>
+  <div class="form-request">
+  <div class="request">
+  h2 Headers
+  ul
+    li <strong>date:</strong> #{date}
+    li <strong>server:</strong> #{server}
+    li <strong>content-length:</strong> #{content_length}
+    li <strong>keep-alive:</strong> #{keep_alive}
+    li <strong>connection:</strong> #{connection}
+    li <strong>content-type:</strong> #{content_type}
+  </div>
+  <div class="response">
+  h2 Body
+  <pre> #{body} </pre>
+  </div>
+  </div>
+  <div style="clear: both;"></div>
+  <div class="save">
+  <h1>Save changes</h1>
+  </div>
+  </div>
+  <footer>
+  </footer>
+
